@@ -1,0 +1,12 @@
+Netchat7 Internet Text Distribution Service
+Server mockup
+====
+
+Socket@80, eventually 9033
+
+ArrayList of alive hosts
+
+acts as repeater between clients
+
+Data being bounced to client:
+	Currently alive nodes (nick only)

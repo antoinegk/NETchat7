@@ -1,0 +1,38 @@
+Netchat7 Internet Text Distribution Service
+Client mockup
+====
+
+
+JavaFX Window, basic server selector from menu and chat window
+
+
+
+Dropdown Menus
+
+Connect
+	----| Enter IP
+	----| Baltimore Server (96.244.250.84)
+	----| East Germany Server (82.87.114.25)
+
+Options
+	----| Encoding
+	----| Colors
+	----| Autojoin
+	
+About
+	----| Authors
+	----| Protocol (Just a link to website, opens FF)
+	----| GPLv3 License
+	
+	
+"Alive" JSON UDP Data
+
+{
+"alive":
+	"public":
+		"nickname": "nickname"
+		"realname": "realname"
+		"other":	"other readable data"
+	"private":
+		"alivefor": "ttl, by default 10sec"
+}
